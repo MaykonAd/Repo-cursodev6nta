@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link href="estilo.css" rel="stylesheet">
+</head>
+<body>
+<fieldset id="dadosPessoais"> <legend> Dados pessoais</legend> 
+<br>Nome: <input type="text"></br>
+<br>E-mail: <input type="text"></br>
+<br>Cidade: <input type="text"></br>
+<br>Estado:<select name="Escolha...">
+			<option value="0">Escolha..</option>
+			<option value="1">PA</option>
+			<option value="2">CE</option>
+			<option value="3">AM</option>
+			<option value="4">MG</option>
+</select>
+</fieldset>
+<br></br>
+<fieldset id="dadosProfissionais"><legend>Dados profissionais</legend>
+<b>Cargo pretendido</b>
+<br><input type="radio" name="nome">Analista de sistema
+<input type="radio" name="nome">Analista de banco de dados
+<input type="radio" name="nome">Analista de suporte
+
+<br><b>Tecnologia de interesse:</b></br>
+<input type="checkbox" name="nome">Java
+<input type="checkbox" name="nome">HTML,CSS
+<input type="checkbox" name="nome">Javascript
+<input type="checkbox" name="nome">SQL
+<br><b>Mini curriculo:</b></br>
+<textarea rows="10" cols="80"></textarea>
+</fieldset> 
+<fieldset id="acoes"><legend>Ações</legend>
+<center>
+<br>
+<input id="enviar" type="submit" value="enviar">
+<input id="limpar" type="reset" value="limpar">
+</br>
+</center>
+</fieldset>
+</body>
+</html>

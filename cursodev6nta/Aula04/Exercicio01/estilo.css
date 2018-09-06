@@ -1,0 +1,24 @@
+#dadosPessoais, #dadosPessoais legend{
+	background-color: lightblue;
+}
+#dadosPessoais input, #dadosPessoais select{
+	background-color: yellow;
+	
+}
+#dadosProfissionais,#dadosProfissionais legend{
+	background-color: lightcoral;
+}
+#dadosProfissionais textarea{
+	
+	background-color: yellow;
+	
+}
+#acoes, #acoes legend{
+	background-color: lightgreen;	
+}
+#enviar{
+	background-color: green;
+}
+#limpar{
+	background-color:orange;
+}

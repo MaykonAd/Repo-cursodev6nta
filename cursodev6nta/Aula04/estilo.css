@@ -1,0 +1,30 @@
+div{
+	color: blue;
+	font-size: 20px;
+	font-family: helvetica;
+	
+}
+p{
+	color: green;
+	font-size: 20px;
+	font-family: arial;
+	
+}
+span{
+	color : pink;
+	font-size: 20px;
+	font-family: arial;
+	
+}
+#conteudo{
+	color: pink;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+.artigosRodape{
+	color: gray;
+	font-size: 40px;
+	font-family: helvetica;
+	background-color: blue;
+	
+}
