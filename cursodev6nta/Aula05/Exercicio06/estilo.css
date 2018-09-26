@@ -1,0 +1,22 @@
+.titulo {
+	border-bottom: outset;
+	font-family: monospace;
+	color: #403f3f;
+}
+
+h2 {
+	font-family: monospace;
+	color: #403f3f;
+}
+
+.divPro {
+	float: left; width: 20%;
+}
+
+.divQtd {
+	
+	float: left; width: 20%;
+}
+.preUni{
+	float: left;width: 13%
+}
