@@ -10,13 +10,31 @@ h2 {
 }
 
 .divPro {
-	float: left; width: 20%;
+	float: left;
+	width: 20%;
 }
 
 .divQtd {
-	
-	float: left; width: 20%;
+	float: left;
+	width: 20%;
 }
-.preUni{
-	float: left;width: 13%
+
+.preUni {
+	float: left;
+	width: 13%;
+}
+
+.butAdci {
+	float: left;
+	width: 13%;
+	padding-top: 2%;
+}
+
+.butCom {
+	padding-top: 2%
+}
+.table{
+	width: 50%;
+	border-style: solid;
+	border-right: 20%;
 }

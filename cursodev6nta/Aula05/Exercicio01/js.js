@@ -1,14 +1,14 @@
 function soma() {
 	var numero = parseFloat(document.getElementById("nume1").value);
 	var numero1 = parseFloat(document.getElementById("nume2").value);
-	document.getElementById("nome").innerHTML = numero + numero1;
+	document.getElementById("result").innerHTML = numero + numero1;
 	
 	
 } 
 function subtrair() {
 	var numero = parseFloat(document.getElementById("nume1").value);
 	var numero1 = parseFloat(document.getElementById("nume2").value);
-	document.getElementById("nome").innerHTML = numero - numero1;
+	document.getElementById("result").innerHTML = numero - numero1;
 	
 	
 	
@@ -16,14 +16,14 @@ function subtrair() {
 function multiplicacao() {
 	var numero = parseFloat(document.getElementById("nume1").value);
 	var numero1 = parseFloat(document.getElementById("nume2").value);
-	document.getElementById("nome").innerHTML = numero * numero1;
+	document.getElementById("result").innerHTML = numero * numero1;
 	
 	
 } 	
 function divisao() {
 	var numero = parseFloat(document.getElementById("nume1").value);
 	var numero1 = parseFloat(document.getElementById("nume2").value);
-	document.getElementById("nome").innerHTML = numero / numero1;
+	document.getElementById("result").innerHTML = numero / numero1;
 	
 	
 	
