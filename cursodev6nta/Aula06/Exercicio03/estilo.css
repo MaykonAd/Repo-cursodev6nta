@@ -1,0 +1,40 @@
+.d1{
+	background-color: green;
+	font-family: Comic Sans MS;
+	display: flex;
+	
+}
+
+img{
+	width: 150px;
+	margin-left: 50px;
+	height: 130px;
+	
+}
+.d2{
+	background: #ccc;
+	
+}
+.d2 h1{
+	color: red;
+	font-family: Comic Sans MS;
+}
+.d2 p{
+	font-family: Comic Sans MS;
+}
+.p1{
+	color: #444;
+	
+}
+.d4{
+	background-color: green;
+	font-family: Comic Sans MS;
+	padding-top: 30px;
+	padding-bottom: 30px
+}
+.mar{
+	    padding-top: 10px;
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}

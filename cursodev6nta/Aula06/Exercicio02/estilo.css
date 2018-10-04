@@ -1,0 +1,28 @@
+.color{
+	background-color: black;
+	border: 1px dashed yellow;
+	color: orange;
+	
+}
+p{
+	color: white;
+}
+h2{
+	color: orange;
+}
+body{
+	background-color: gray;
+}
+.color1{
+	background-color: cyan;
+	border: 1px solid white;
+	color: orange;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+li{
+	color: white;
+}
+.color2{
+	color: pink;
+}
