@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Padoca do seu Zé</title>
+</head>
+<link href="estilo.css" rel="stylesheet">
+<script src="js.js"></script>
+<body>
+	<div>
+		<div class="titulo">
+
+			<center>
+				<h1>Padoca do seu Zé</h1>
+			</center>
+
+		</div>
+		<div>
+			<h2>Comanda do Cliente</h2>
+		</div>
+		<div class="divPro">
+			<label>Produto :</label> <select class="classSelec" id="produto"
+				onchange="res()">
+				<option type="text" value="1">Pão</option>
+				<option value="2">Leite</option>
+				<option value="3">Café</option>
+				<option value="4">Sonho</option>
+				<option value="5">Monteiro Lopes</option>
+			</select>
+		</div>
+		<div class="divQtd">
+			<label>Quantidade :</label> <input type="number" class="" id="qtd"
+				value="1">
+		</div>
+		<div class="preUni">
+			Preço: R$ <b id="preco-unit"></b>
+		</div>
+		<div class="SubTo">
+			Subtotal: R$ <b id="subtotal"></b>
+		</div>
+		<div class="butAdci">
+			<input value="Adicionar ao carrinho" type="button">
+
+		</div>
+		<div class="butCom">
+			<input value="Limpar comanda" type="button">
+		</div>
+		<div class="table">
+			<table>
+				<th>Descrição</th>
+				<th>Quantidade</th>
+				<th>Preço</th>
+				<th>Sub-Total</th>
+				<tr>
+					<td id=""></td>
+				</tr>
+
+			</table>
+		</div>
+		<div>
+			<h2 id="result">aqui:</h2>
+		</div>
+
+
+	</div>
+
+</body>
+</html>
